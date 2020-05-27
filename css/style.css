@@ -1,0 +1,34 @@
+.assign-user{
+    display:flex;
+    flex-wrap:nowrap;
+    align-items: flex-end;
+}
+
+.assign-user.prototype {
+    display:none;
+}
+.assign-user > div:first-child {
+    width:100%;
+}
+.assign-user > div:not(:first-child){
+    margin-left:10px;
+}
+
+.assign-user > div:nth-child(2){
+    max-width:80px;
+}
+
+.assign-user > div:last-child{
+    align-self: center;
+}
+.actions-add-users {
+    margin-top:10px;
+}
+.actions-add-users a {
+    color:#6fa92e;
+}
+
+.actions-add-users a > span {
+    display:inline-block;
+    border-bottom:1px solid #6fa92e;
+}
