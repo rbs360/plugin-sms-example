@@ -1,6 +1,5 @@
 <?php
-
-return [
+	return [
     "name" => "Test",
     "fname" => "Test",
     "description" => "Отправка SMS-сообщений",

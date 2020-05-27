@@ -1,19 +1,19 @@
 <?php
-
-/** Manifest plugin */
-
-
-return [
+	
+	/** Manifest plugin */
+	
+	
+	return [
     "name" => "test",
     "description" => "Test sms description",
     "types" => [
-        "sms",
+	"sms",
     ],
     "vendor" => "Test vendor",
     "version" => "1.0",
     "settings" => [
-        "key" => "",
-        "salt" => "",
-        "url" => "",
+	"key" => "",
+	"salt" => "",
+	"url" => "",
     ]
 ];
