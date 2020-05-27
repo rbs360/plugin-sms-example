@@ -23,7 +23,7 @@
 		
 		
 		/**
-			*  SELF SEND
+			*  SELF SEND SMS
 			* @param type $argsData
 		*/
 		public function send($text, $phoneTo){
